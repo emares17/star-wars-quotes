@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
 const MongoClient = require('mongodb').MongoClient;
-const connectionString = 'mongodb+srv://emares17:Bng313428@star-wars-cluster.x8bctbo.mongodb.net/?retryWrites=true&w=majority'
+const connectionString = 'mongodb+srv://******************@star-wars-cluster.x8bctbo.mongodb.net/?retryWrites=true&w=majority'
 
 
 MongoClient.connect(connectionString, { useUnifiedTopology: true })
